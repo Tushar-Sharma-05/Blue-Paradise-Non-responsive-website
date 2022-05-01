@@ -1,0 +1,389 @@
+
+
+
+/* navbar starts here */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    margin-top: 0% !important;
+
+}
+.navbar  li {
+    list-style: none;
+    padding: 12px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgb(94, 160, 190);
+    font-family: 'MonteCarlo', cursive;
+    font-size: 25px;
+
+
+}
+#btn1{
+    background: transparent;
+    border:  solid 1px rgb(94, 160, 190);
+    margin-left: 10px;
+    color: rgb(94, 160, 190);
+}
+.active1 a:first-child{
+    border-top: solid  3px rgb(94, 160, 190);
+
+    
+}
+.navbar li a:hover{
+    border-top: solid 3px rgb(56, 116, 145);
+    color: rgb(56, 116, 145);
+
+}
+#btn1:hover{
+    background: transparent;
+    border:  solid 1px rgb(56, 116, 145);
+    color: rgb(56, 116, 145);
+}
+.r1{
+    margin-top: 0%;
+}
+
+@media (max-width: 700px) {
+    .navbar{
+        display: none;
+    }
+   
+    
+}
+
+/* header text */
+.headertext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.headertext h1{
+    color: rgb(83, 83, 83);
+    font-family: 'MonteCarlo', cursive;
+    font-size: 70px;
+
+
+}
+.headertext span{
+     color:rgb(94, 160, 190);
+    
+}
+.headertext h5{
+    position: relative;
+    color: rgb(83, 83, 83);
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    margin-left: 100px;
+    bottom: 20px;
+    
+
+
+
+}
+/* home */
+#home-a{
+    margin-top: 50px;
+
+}
+#home-b{
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 130px;
+
+
+
+}
+.home1{
+    background-image: url(images/pic5.jpg);
+    background-size: cover;
+     height: 600px; 
+     margin-left: 50px;
+     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.home2{
+    position: relative;
+    height: 350px;
+    width: 380px;
+    left: 700px;
+    bottom: 530px;
+    background: linear-gradient(rgb(94, 160, 190,0.9),rgb(94, 160, 190,0.9));
+    padding-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+.home2 p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+.home2 h3{
+    color: white;
+    font-family: 'Marcellus', serif;
+    margin-top: 20px;
+
+}
+#btn2{
+    background: white;
+    border:  solid 1px rgb(94, 160, 190);
+    color: rgb(94, 160, 190);
+
+}
+#btn2:hover{
+    background:rgb(56, 116, 145);
+    
+    border:  solid 1px rgb(56, 116, 145);
+    color: rgb(255, 255, 255);
+}
+
+/* reviews */
+.review{
+    background: linear-gradient(rgb(94, 160, 190,0.9),rgb(94, 160, 190,0.9));
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 60px;
+    color: rgb(73, 73, 73);
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 20px;
+
+    
+}
+.box1 h6{
+    font-family: 'Marcellus', serif;
+    color: aliceblue;
+    font-size:20px;
+    
+    
+}
+.box1 p{
+
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+
+}
+#review-img{
+    height: 600px;
+    width: 500px;
+    background-image: url(images/pic8.jpg);
+    background-size: cover;
+    position: relative;
+    left: 550px;
+    bottom:200px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+
+/* map area */
+.location{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.location h5{
+    color:rgb(94, 160, 190);
+    
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map iframe{
+    height: 350px;
+    width: 500px;
+}
+/* footer */
+.footer{
+    background-color:rgb(94, 160, 190);
+    margin-top: 70px;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 10px;
+}
+.footer-icon{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+
+
+}
+.footer-icon i{
+    color: aliceblue;
+    padding: 5px;
+
+}
+.footer-icon a :hover{
+    color: black;
+}
+
+
+
+/* The villa starts here  */
+
+.gallery{
+    display: flex;
+    margin-top: 30px;
+    display: flex;
+
+}
+.gallery img{
+    height: 500px;
+    width: 900px;
+    margin-left: 60px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+#btn3{
+    background: transparent;
+    border: none;
+}
+#btn3 i{
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 300px;
+    left: 800px
+}
+
+
+.villa-card{
+    position: absolute;
+    height: 350px;
+    width: 380px;
+    left: 870px;
+    top: 430px;
+    bottom: 530px;
+    background: linear-gradient(rgb(94, 160, 190,0.9),rgb(94, 160, 190,0.9));
+    padding-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+.villa-card p,li{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+.villa-card h3{
+    color: white;
+    font-family: 'Marcellus', serif;
+    margin-top: 20px;
+
+}
+
+
+/* beach session starts here */
+
+.pool{
+    display: flex;
+    margin-top: 30px;
+    display: flex;
+
+}
+.pool img{
+    height: 700px;
+    width: 500px;
+    margin-left: 60px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+#btn4{
+    background: transparent;
+    border: none;
+}
+#btn4 i{
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 30px;
+    right: 80px;
+}
+.pool-card{
+    position: relative;
+    height: 400px;
+    width: 320px;
+    left: 450px;
+    bottom: 370px;
+    background: linear-gradient(rgb(94, 160, 190,0.9),rgb(94, 160, 190,0.9));
+    padding-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+.pool-card p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+.pool-card h3{
+    color: white;
+    font-family: 'Marcellus', serif;
+    padding-top: 30px;
+
+}
+
+
+/* beach */
+
+
+.beach{
+    display: flex;
+    display: flex;
+
+}
+.beach img{
+    height: 500px;
+    width: 1000px;
+    margin-left: 60px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+#btn5{
+    background: transparent;
+    border: none;
+}
+#btn5 i{
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 940px;
+    bottom: 270px;
+}
+.beach-card{
+    position: relative;
+    height: 350px;
+    width: 380px;
+    left: 100px;
+    bottom: 200px;
+    background: linear-gradient(rgb(94, 160, 190,0.9),rgb(94, 160, 190,0.9));
+    padding-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+.beach-card p{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+.beach-card h3{
+    color: white;
+    font-family: 'Marcellus', serif;
+    padding-top: 30px;
+
+}
+
